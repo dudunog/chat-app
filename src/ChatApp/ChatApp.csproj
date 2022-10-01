@@ -68,4 +68,13 @@
 	  <None Remove="Resources\Fonts\OpenSans-Semibold.ttf" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\Templates\RecentChatItemTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Templates\SuggestedItemTemplate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
